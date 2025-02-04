@@ -71,4 +71,16 @@ Lastly, we need to push our changes
 
 where we push our branch (main) with -u to add upstream tracking reference to the repository (origin)
 
- 
+
+#					GitHUB Desktop Tutorial					     #
+
+
+So, you have an aversion to command lines? No matter, you are in luck! GitHub has a desktop app that makes all of thisnonsense typing go away, and replaces it with simple point and clicks!
+
+First, you'll want to download GitHub Desktop:
+
+	https://desktop.github.com/download/
+
+Next, you will sign-in and see a screen like this (yours will be a little different if this is your first sign-in)
+
+![Alt text](./Images/StartingScreen.jpg?raw=true "Start")
