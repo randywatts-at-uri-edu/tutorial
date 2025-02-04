@@ -8,11 +8,9 @@ Two sets of datasets are included in the ``ExperimentalData'' directory: ReXXks1
 
 These directories include both the original data in .txt form, as well as the cleaned-up data to be used in with the script (i.e., Re07ks16_xhatXX, where xhat is the downstream distance from the roughness transition). Additionally, we have files labeled *_BL which have characteristics of the upstream boundary layer.
 
-######################################################################################################
-#												     #
+												     
 #					COMMAND LINE TUTORIAL					     #
-#												     #
-######################################################################################################
+												     
 
 
 Clone the repository to your local machine:
