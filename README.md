@@ -46,9 +46,13 @@ Once that change has been made and saved on the file, try git status again, we s
 		modified:    Li_VelScaling.m
 
 Now, we will add our changes to be staged for committing.
+This will add changes to all files in the directory
 
-	git add . (this will add changes to all files in the directory) OR
-	git add Li_VelScaling.m (this only adds the changes made to this file)
+	git add . 
+ 
+OR this only adds the changes made to this file
+
+	 git add Li_VelScaling.m 
 
 If we do git status again, we will see now
 	Changes to be committed:
@@ -56,6 +60,7 @@ If we do git status again, we will see now
 			modified:    Li_VelScaling.m (in green!)
 
 Let's commit our changed files now:
+
 	git commit -m "Committment isn't that hard with git"
 
 The -m command allows us to add a message to our commit so we know what we committed at the time.
