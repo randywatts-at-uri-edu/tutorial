@@ -72,7 +72,7 @@ Lastly, we need to push our changes
 where we push our branch (main) with -u to add upstream tracking reference to the repository (origin)
 
 
-#					GitHUB Desktop Tutorial					     #
+#					GitHub Desktop Tutorial					     #
 
 
 So, you have an aversion to command lines? No matter, you are in luck! GitHub has a desktop app that makes all of thisnonsense typing go away, and replaces it with simple point and clicks!
@@ -81,6 +81,46 @@ First, you'll want to download GitHub Desktop:
 
 	https://desktop.github.com/download/
 
-Next, you will sign-in and see a screen like this (yours will be a little different if this is your first sign-in)
+Next, you will sign-in and see a screen like this (yours will be a little different if this is your first sign-in).
 
 ![Alt text](./Images/StartingScreen.jpg?raw=true "Start")
+
+Click the dropdown (shown with the red box) to bring up the add -> clone repository option
+
+![Dropdown](./Images/AddRepo.jpg?raw=true "Add")
+
+Next, click the clone repository button and you will see the box below, click url and add the following URL there:
+
+	https://github.com/JCooke188/MyTutorial.git
+
+Make sure you select where you want to create the cloned repository!
+
+![Clone](./Images/CloneRepo.jpg?raw=true "Clone")
+
+Once you've hit 'Clone' you will see something like this:
+
+![Inside](./Images/IntheRepo.jpg?raw=true "Inside")
+
+Find the files in the finder (or if on Windows the File Explorer) and make a change to the Li_VelScaling.m matlab script like:
+
+	% Edited by: (your name) on (today's date)
+
+Once you've done that, save your file and go back to GitHub Desktop.
+
+![Commit](./Images/CommitChange.jpg?raw=true "Commit")
+
+You will see the name of the file we changed on the left side, as well as the reflected changes on the right. In the bottom lefthand side, create a commit title like 
+
+	Added the date
+
+As well as a note 
+
+	Today is Feb 4th.
+
+Then 'Commit to Main'. After you've clicked this, you should see this screen:
+
+![Push](./Images/PushRepo.jpg?raw=true "Push")
+
+Push with the command+P or ctrl+P shortcut, or simply click "Push origin". Congrats, you are now an expert at using GitHub Desktop!
+
+Thank you for checking out this tutorial! Best of luck on your git journey.
