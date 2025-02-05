@@ -1,5 +1,5 @@
 %% START
-% Edited by: Justin on Feb 4th
+
 clc;
 clear;
 close all;
@@ -626,36 +626,6 @@ xlabel('$\langle U \rangle/U_i$','FontSize',24);
 xlim([0 1]);
 ylim([0 1]);
 title('Re14ks11','FontSize',24)
-
-%% We will plot u'u'
-
-close all;
-
-figure();
-subplot(1,2,1);
-for i = 1:ks_theseLengths(3)
-   thisZ = ks_11_zplus{i};
-   semilogx(thisZ,ks_11_uuplus{i},...
-       'ko','MarkerSize',8,...
-       'MarkerFaceColor',Li_ks11_Colors(i)); hold on;
-end
-set(gca,'FontSize',20);
-xlabel('$z^+$');
-ylabel('$\langle u^\prime u^\prime \rangle^+$');
-
-subplot(1,2,2);
-for i = 1:ks_theseLengths(3)
-   thisZ = ks_11_zdel99{i};
-   plot((ks_11_uuplus{i}.*(ks_utau{3}(i)^2))./(ks_11_Udelta_ibl(i)^2),...
-       thisZ.*ks_delta99{3}(i)./ks_delta_ibl{3}(i),...
-       'ko','MarkerSize',8,...
-       'MarkerFaceColor',Li_ks11_Colors(i)); hold on;
-end
-set(gca,'FontSize',20);
-ylim([0 1]);
-ylabel('$z/\delta_i$');
-xlabel('$\langle u^\prime u^\prime \rangle/U_i^2$');
-
 
 
 %% Calculate new defect
